@@ -1,0 +1,18 @@
+#mainContainer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url("Page Background/Street.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(48, 48, 48);
+  width: 100vw;
+  height: 100vh;
+}
+#game {
+  position: absolute;
+  transform-origin: top left;
+  background-color: black;
+  image-rendering: pixelated;
+}
