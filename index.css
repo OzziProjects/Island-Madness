@@ -9,10 +9,29 @@
   background-color: rgb(48, 48, 48);
   width: 100vw;
   height: 100vh;
+  user-select: none;
 }
 #game {
   position: absolute;
   transform-origin: top left;
   background-color: black;
   image-rendering: pixelated;
+}
+#freeCameraStatus {
+  position: absolute;
+  transform-origin: top left;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  text-wrap: nowrap;
+  min-height: min-content;
+  min-width: min-content;
+  justify-content: center;
+}
+#freeCameraStatus-Text {
+  position: relative;
+  font-size: 16px;
+  margin: 0;
 }
